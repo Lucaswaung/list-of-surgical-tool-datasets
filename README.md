@@ -271,7 +271,7 @@ Skill assessment and workflow recognition
       <a href="https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/">JIGSAWS</a>
     </td>
     <td align="center">
-      The JIGSAWS dataset consists of three components: kinematic data (Cartesian positions, orientations, velocities, angular velocities and gripper angle describing the motion of the manipulators), video data (stereo video captured from the endoscopic camera), and manual annotations of gestures (atomic surgical activity segment labels) and skill (global rating score using modified objective structured assessments of technical skills).
+     提供了三维坐标信息，但没提供三维坐标到镜头的转换信息。 The JIGSAWS dataset consists of three components: kinematic data (Cartesian positions, orientations, velocities, angular velocities and gripper angle describing the motion of the manipulators), video data (stereo video captured from the endoscopic camera), and manual annotations of gestures (atomic surgical activity segment labels) and skill (global rating score using modified objective structured assessments of technical skills).
     </td>
     <td align="center">N/A</td>
     <td align="center">N/A</td>
@@ -355,7 +355,7 @@ Image-to-image translation
       <a href="http://opencas.dkfz.de/image2image/">Laparoscopic Image to Image Translation</a>
     </td>
     <td align="center">
-      Synthetic images in a 3D environemnt roughly resembling laparoscopic liver surgery scenes. A group of Generative Adversarial Networks (GAN) is trained to translate these images to look like real laparoscopic images. After the training process, the translated images along with their labels can be used as training data for a certain target task.
+     模拟信息，提供深度、分割等。 Synthetic images in a 3D environemnt roughly resembling laparoscopic liver surgery scenes. A group of Generative Adversarial Networks (GAN) is trained to translate these images to look like real laparoscopic images. After the training process, the translated images along with their labels can be used as training data for a certain target task.
     </td>
     <td align="center">
       <a href="https://arxiv.org/abs/1907.02882">Pfeiffer et al. 2019</a>
